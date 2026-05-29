@@ -1,0 +1,26 @@
+# Ignore Visual Studio / VS Code files
+.vscode/
+.vs/
+*.suo
+*.user
+
+# Build artifacts
+*.exe
+*.out
+*.obj
+*.o
+*.dll
+*.lib
+*.a
+bin/
+build/
+Debug/
+Release/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# OneDrive/shortcuts
+*.lnk
