@@ -1,15 +1,19 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        int candidate=0;
-        int count=0;for(int num:nums){
-            if(count==0)
-                candidate=num;
-            if(num==candidate)
+        int candiate=0;
+        int count=0;
+        for(int num:nums){
+            if(count==0){
+               candiate=num;
+            }
+            if(num==candiate){
                 count++;
-            else
-                count--;        
+            }
+            else{
+                count--;
+            }
         }
-        return candidate;
+        return candiate;
     }
 };
